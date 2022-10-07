@@ -1,0 +1,78 @@
+body{
+    background-color: beige;
+}
+.r-1{
+    height: 8%;
+}
+
+.r-2{
+    height: 90%;
+}
+
+.box-1{
+    background-color: aqua;
+}
+.output-window{
+    border: 2px solid gray;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.box-3{
+    background-color: pink;
+}
+.box-4{
+    background-color: green;
+    font-size: 16px;
+}
+.box-5{
+    background-color: gray;
+}
+.box-6{
+    background-color: purple;
+    font-size: 24px;
+}
+
+textarea{
+    resize: none;
+    border: solid 2px gray;
+    outline: none;
+}
+
+#line-numbers{
+    text-align: right;
+    overflow:hidden;
+    border: solid 1px gray;
+}
+
+.owind{
+    transform: rotate(270deg);
+    left: -8%;
+    top: 75%;
+    position: absolute;
+    text-transform: uppercase;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.output-line{
+    text-align: left;
+    width: max-content;
+    padding: 0rem;
+    margin-left: 0rem;
+}
+
+.print-output{
+    width: max-content;
+}
+
+#input-area{
+    border: none;
+    outline: none;
+    background-color: beige;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 50ch;
+}
