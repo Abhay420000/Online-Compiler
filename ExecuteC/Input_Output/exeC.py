@@ -7,7 +7,7 @@ import subprocess
 class RunCode:
     def __init__(self, option, dir):
         self.c_list = {
-            "python": [f"python '{dir}//code.py' <'{dir}//input' >'{dir}//output' 2>'{dir}//error'"],                           
+            "python": [f"python3 '{dir}//code.py' <'{dir}//input' >'{dir}//output' 2>'{dir}//error'"],                           
             "c++": [f"g++ '{dir}/code.cpp' -o '{dir}/a.out'", f"'{dir}/a.out' <'{dir}/input' >'{dir}/output' 2>'{dir}/error'"],
         }
 
