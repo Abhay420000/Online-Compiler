@@ -1,2 +1,5 @@
-Use Linxus OS to run the program.
-It requires C++ and python to be installed on the system. 
+Use Linxus OS to run the program without docker.
+It requires C++ and python to be installed on the system.
+
+To use run it using docker use the following command:
+docker run -dp 8000:8000 abhay420000/online_compiler
