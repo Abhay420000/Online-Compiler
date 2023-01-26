@@ -5,8 +5,10 @@ import json
 #import os
 #print(os.getcwd())
 from ExecuteC.Input_Output.exeC import execute
+from django.views.decorators.csrf import ensure_csrf_cookie
 
 # Create your views here.
+@ensure_csrf_cookie
 def home(request):
     if request.method == "GET":
         #print(request.GET)
